@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Uber-like Map</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="input-fields">
+      <input id="origin" type="text" placeholder="Enter Origin">
+      <input id="destination" type="text" placeholder="Enter Destination">
+      <button id="find-route">Find Route</button>
+    </div>
+    <div id="map"></div>
+    <div id="fare-display">Fare: $<span id="fare">0.00</span></div>
+  </div>
+
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCLLQUDtxmeICTUfulLCBk00Ak0akxirbU&libraries=places"></script>
+  <script src="script.js"></script>
+</body>
+</html>
